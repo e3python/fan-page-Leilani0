@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body {
+            background-color: plum;
+        }
         .song-name {
             font-size: 1.2em;
             font-weight: bold;
@@ -13,14 +16,42 @@
             font-size: 1em;
             margin-bottom: 1.5em;
         }
+        .photo-gallery img {
+            width: 300px;
+            height: auto;
+            margin: 10px;
+        }
+        .photo-gallery img[src="phone.jpg"] {
+            border: 5px solid black;
+            border-radius: 15px;
+        }
+        .photo-gallery img[src="musicsheet.jpg"] {
+            width: 250px;
+            border: 5px solid purple;
+            border-radius: 15px;
+        }
+        .photo-gallery img[src="music book.webp"] {
+            width: 250px;
+            border: 5px solid purple;
+            border-radius: 15px;
+        }
     </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>The "TikTok Ruined This"</h1>
     <p>Songs that were great until they were played 9 million times in 15-second clips.</p>
 
+    <div class="photo-gallery">
+        <img src="phone.jpg" alt="Close up of a phone on tik tok">
+    </div>
+
     <h2>The Academic Version:</h2>
     <p>"Welcome to the official investigation into the TikTok Song Graveyard. In the modern era, a hit song's greatest blessing is also its biggest curse: going viral. While TikTok can turn an underground track into a global anthem overnight, the platform's 15-second loop cycle has a habit of turning masterpieces into psychological weapons. We are exploring the 'Skip Reflex'—that moment when a song has been used in so many transitions, dance challenges, and 'Get Ready With Me' videos that the human brain simply cannot listen to it anymore without experiencing a mental short-circuit. These are the songs we loved, until the FYP wouldn't let us."</p>
+
+    <div class="photo-gallery">
+        <img src="musicsheet.jpg" alt="Close up of a music sheet">
+    </div>
 
     <div class="song-name">"Dreams" by Fleetwood Mac</div>
     <div class="song-description">Once a masterpiece of 70s rock, now forever known as "The Cranberry Juice Song." It's impossible to hear that bassline without imagining someone on a skateboard looking way too relaxed.</div>
@@ -33,6 +64,10 @@
 
     <div class="song-name">"Say So" by Doja Cat</div>
     <div class="song-description">The song that proved a 15-second dance could change the world. It's a great song, but if you hear the intro, your arms might start doing the "Say So" dance automatically. It's a reflex now.</div>
+
+    <div class="photo-gallery">
+        <img src="music book.webp" alt="Close up of a music book">
+    </div>
 
     <div class="song-name">"Renegade" / "Lottery" by K CAMP</div>
     <div class="song-description">The ultimate "Viral Dance" song. It didn't just ruin the song; it created a whole new era of people staring intensely at their front-facing cameras.</div>

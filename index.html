@@ -6,15 +6,33 @@
     <title>Document</title>
     <style>
         body {
-            background-color: plum;
+            background-color: #E6D5F0;
+            font-family: 'Georgia', serif;
+        }
+        h1 {
+            color: #4a0e4e;
+            text-align: center;
+            font-size: 2.8em;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            letter-spacing: 1px;
+        }
+        h2 {
+            color: #5a1a5e;
+            text-align: left;
         }
         .song-name {
             font-size: 1.2em;
             font-weight: bold;
+            color: #3d0a42;
         }
         .song-description {
             font-size: 1em;
             margin-bottom: 1.5em;
+            padding: 10px;
+        }
+        .photo-gallery {
+            margin: 20px 0;
         }
         .photo-gallery img {
             width: 300px;
@@ -35,6 +53,18 @@
             border: 5px solid purple;
             border-radius: 15px;
         }
+        .featured-image {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            transform: scale(1.02);
+        }
+        .image-attribution {
+            font-size: 0.85em;
+            color: #5a1a5e;
+            font-style: italic;
+            margin-top: 8px;
+            text-align: center;
+            padding: 0 10px;
+        }
     </style>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -43,7 +73,8 @@
     <p>Songs that were great until they were played 9 million times in 15-second clips.</p>
 
     <div class="photo-gallery">
-        <img src="phone.jpg" alt="Close up of a phone on tik tok">
+        <img class="featured-image" src="phone.jpg" alt="Close up of a phone on tik tok">
+        <div class="image-attribution">Photo by Daniel Constante | Original | No Copyright</div>
     </div>
 
     <h2>The Academic Version:</h2>
@@ -51,6 +82,7 @@
 
     <div class="photo-gallery">
         <img src="musicsheet.jpg" alt="Close up of a music sheet">
+        <div class="image-attribution">Photo by Edward Fielding | Original | No Copyright</div>
     </div>
 
     <div class="song-name">"Dreams" by Fleetwood Mac</div>
@@ -67,6 +99,7 @@
 
     <div class="photo-gallery">
         <img src="music book.webp" alt="Close up of a music book">
+        <div class="image-attribution">Source Unknown | Original | No Copyright</div>
     </div>
 
     <div class="song-name">"Renegade" / "Lottery" by K CAMP</div>
